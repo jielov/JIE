@@ -1,0 +1,249 @@
+			/* 购物广场搜索框布局 */
+			.conter{
+	    		height: 4890px;
+	    		background-color: #FFFfff;
+	    		/* background-color:red; */
+	    	}
+	    	/* 搜索布局 */
+	    	.sou{
+				height:100px;
+				/* background-color: red; */
+	    	}
+	    	.mulu{
+	    		width:250px;
+	    		height:100px;
+	    	}
+	    	/* 购物广场图片 */
+	    	.imgg{
+				width:140px;
+				height:85px;
+				padding: 15px 0 0 10px;
+	    	}
+	    	.textt{
+				width:100px;
+				height:100px;
+				font-size: 17px;
+				/* background-color: red; */
+	    	}
+	    	.textt>div{
+				float:left;
+				padding:30px 7px 0 0;
+	    	}
+	    	/* 搜索框布局 */
+	    	.sousuo{
+	    		width:840px;
+	    		height:100px;
+	    		margin-left: 10px;
+				/* background-color: #963; */
+	    	}
+	    	.high{
+	    		width:540px;
+	    		background-color:#8d8d8d;
+	    		float:left;
+	    		margin-top: 20px;
+	    	}
+	    	.sousuo_high{
+	    		float:left;
+	    		width:450px;
+	    		height:48px;
+	    		line-height: 48px;
+	    		border:none;
+	    		font-size: 14px;
+	    		background:#f7f7f7;
+	    		color:#666;
+	    		padding:0 15px;
+	    	}
+	    	.high_ts{
+	    		/* float:left; */
+	    		float: right;
+	    		width:58px;
+	    		height:48px;
+	    		border:none;	    		
+	    		cursor:pointer;
+	    		background:url(img/sous.png) no-repeat;
+	    		background-size:80%;
+	    	}
+	    	.nassmge{
+	    		width:250px;
+	    		height:48px;
+	    		float:left;
+	    		font-size: 14px;
+	    		margin-top: 20px;
+	    		margin-left: 20px;
+	    		/* background-color: red; */
+	    	}
+	    	.nassmge>div{
+	    		float:left;
+	    		padding:0 10px 0 10px;
+	    	}
+	    	.xiaox{
+	    		width:40px;
+	    		height:35px;
+	    		display:block;
+	    		background:url(img/xiaox.png) no-repeat;
+	    	}
+	    	.shoc{
+	    		width:40px;
+				height:35px;
+				display:block;
+				background:url(img/shoc.png) no-repeat;
+	    	}
+	    	.gwc{
+	    		width:40px;
+	    		height:35px;
+				display:block;
+				background:url(img/gwc.png) no-repeat;
+	    	}
+	    	.faxiang{
+	    		width:34px;
+	    		height:35px;
+	    		display:block;
+	    		background:url(img/faxiang.png);
+	    	}
+	    	/* 商品布局 */
+	    	.shang{
+				height:530px;
+				/* background-color: red; */
+	    	}
+	    	.shang img{
+	    		width:100%;
+	    		margin-left: 0px;
+	    	}
+	    	/* 秒杀布局 */
+	    	.miaos{
+	    		height:1400px;
+	    	}
+			.miaos_mu img{
+				border-radius:30px;
+				width:1100px;
+				background-color:#b6030a;
+			}
+	    	.miaos_img img{
+	    		width:1100px;
+	    		height:250px;
+	    	}
+	    	/* 限量抢购 */
+			.xiang{
+				height:1500px;
+				/* background-color:red; */
+			}
+			.xiang_top img{
+				border-radius:30px;
+				width:1100px;
+				background-color:#b6030a;
+			}
+	    	.xiang_centon img{
+				width:1100px;
+	    	}
+	    	/* 商品详情 */
+	    	.xiang_fing{
+	    		height:1700px;
+	    		/* background-color:#ffa; */
+	    	}
+	    	.xiang_fing_product>div{
+	    		margin-top: 10px;
+	    		margin-left: 10px;
+	    		margin-right: 10px;
+	    		/* padding-left: 5px;
+    			padding-right: 5px; */
+	    	}
+	    	.product{
+	    		width:250px;
+	    		height:352px;
+	    		border-width:1px;
+				border-style:dotted;
+				border-color:rgba(255,0,255,0.6);
+	    		/* background-color:#a444; */
+	    	}
+	    	.product_iwrap{
+	    		width:250px;
+			    background-color: #fff;
+	    	}
+	    	.product_iwrap_img{
+	    	    display: table;	
+			    table-layout: fixed;
+			    width: 100%;
+			    padding: 0;
+				margin: 0 0 5px; 
+			 }
+			 .product_iwrap_img img{
+			 	height: 220px;
+			    width: 220px;
+			    margin-left: 25px;
+			 }
+			 .produc_iwrap_price{
+			    color: #ff0036;
+			    font-size: 14px;
+			    height: 30px;
+			    line-height: 30px;
+			    margin: 0 0 5px;
+			 }
+			 .produc_iwrap_price em {
+			    float: left;
+			    font-family: arial;
+			    font-weight: 400;
+			    font-size: 20px;
+			    color: #ff0036;
+			}
+			.produc_iwrap_price_spu{
+			    line-height: 12px;
+			    max-height: 32px;
+			}
+			.produc_iwrap_price_spu a{
+				font-size: 10px;
+				color: #333;
+			}
+			.produc_iwrap_price_spu a:hover{
+				color: red;
+			}
+			.lightspot {
+			    margin-left: 10px;
+			    color: #ff0036!important;
+			}
+			.produc_iwrap_price_name{
+			    height: 22px;
+			    line-height: 20px;
+			    margin-bottom: 5px;
+			    color: #999;
+			}
+			.produc_iwrap_price_name a{
+			    float: left;
+			    line-height: 20px;
+			    height: 20px;
+			    max-width: 144px;
+			    color: #999;
+			    text-decoration: underline;
+			    overflow: hidden;
+			    text-overflow: ellipsis;
+			    white-space: nowrap;
+			}
+			.produc_iwrap_status{
+				font-size: 14px;
+				position: relative;
+			    height: 32px;
+			    border: none;
+			    border-top: 1px solid #eee;
+			    margin-bottom: 0;
+			    color: #999;
+			}
+			.produc_iwrap_status span {
+			    float: left;
+			    display: inline-block;
+			    border-right: 1px solid #eee;
+			    width: 75%;
+			    padding: 10px 1px;
+			    margin-right: 6px;
+			    line-height: 12px;
+			    text-align: left;
+			    white-space: nowrap;
+			}
+			.produc_iwrap_status_img{
+				margin-left: 10px;
+				width:33px;
+				height:33px;
+			}
+	    	/* 底部布局 */
+	    	.foter{
+	    		height: 100px;
+	    		/* background-color: #888; */
+	    	}

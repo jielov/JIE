@@ -1,0 +1,86 @@
+
+	    	*{
+	    		margin:0;
+	    		padding:0;
+	    		list-style:none;
+	    		text-decoration: none;
+	    	}
+	    	.w{
+	    		width: 1100px;
+	    		margin:0 auto; 
+	    	}
+	    	.q{
+	    		float:left;
+	    	}
+	    	/* 头部布局 */
+	    	.header{
+	    		 /* width: 100%;  */
+	    		/* margin:0 auto; */
+	    		height:60px;
+	    		background-color: #fff;
+	    		/* margin-left:506px; */
+	    	}
+	    	/* logo图片布局 */
+	    	.logo{
+	    		width: 110px;
+	    		height: 60px;
+	    		/* margin-left: 402px; */
+	    		background-color: #fff;
+	    	}
+	    	
+	    	/* 中间导航文字布局 */
+	    	.topnav{
+	    		width: 750px;
+	    		height: 60px;
+	    		margin-left:30px;
+	    		padding:0 10px;
+	    		margin:0 10px;
+	    		font-size: 18px;
+	    		/* background-color: #ada; */
+	    	}
+	    	.ul li{
+	    		float:left;
+	    		line-height: 60px;
+	    		padding:0 10px;
+	    	}
+	    	.ul li:hover{
+	    		background-color: rgb(245, 43, 42);;
+	    		color:white;
+	    	}
+	    	/* 登录注册布局 */
+	    	.register{
+	    		width: 200px;
+	    		height: 50px;
+	    		background-color: #fff;
+	    		position: relative;
+    			padding-bottom: 10px;
+	    	}
+			.denlu{
+				/* margin-left: 50px; */
+				float:left;
+				width: 200px;
+				height: 60px;
+				/* background-color: #a145; */
+			}
+			.tu{
+				width:30px;
+				height:30px;
+				padding:10px 0 0 0;
+			}
+			.deng{
+				width: 40px;
+				height:30px;
+				font-size: 18px;
+				/* line-height: 50px; */
+				padding:16px 10px 0px 15px;
+			}
+			.gang{
+				line-height: 50px;	
+			}
+			.zhuc{
+				width:40px;
+				height: 30px;
+				font-size: 18px;
+				/* line-height: 50px; */
+				padding:16px 0px 0px 18px;
+			}

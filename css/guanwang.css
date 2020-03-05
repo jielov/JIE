@@ -1,0 +1,192 @@
+/*
+* @Author: ASUS飞行堡垒
+* @Date:   2019-11-27 17:23:24
+* @Last Modified by:   ASUS飞行堡垒
+* @Last Modified time: 2019-12-13 20:46:10
+*/
+/* 官网布局 */
+    *{
+    		margin:0;
+    		padding:0;
+            text-decoration: none;
+    	}
+    	.wong{
+    		background:url(img/denglubeij.jpg) no-repeat;
+    		width:100%;
+    		height:100%;
+    		background-size:100%;  
+    	}
+    	.top{
+    		width:1100px;
+			height:100px;
+			margin:0 auto;
+			opacity:0.5;
+			/* background-color: #784; */
+    	}
+    	.conter{
+    		width:1100px;
+			height:800px;
+			margin:0 auto;
+			/* background-color: #666; */
+			/* opacity:0.5; */
+    	}
+    	.foner{
+    		width:1100px;
+    		height:100px;
+    		margin:50px auto;
+    		/* opacity:0.5; */
+			/* background-color: red; */
+    	}
+        /* 顶部布局 */
+        .top_logo{
+            width:200px;
+            height:100px;
+            float:left;
+            position:absolute;
+            /* margin-left: 321px; */
+        }
+        .top_logo img{
+            padding:10px 10px 10px 10px;
+        }
+        .top_text{
+            width:750px;
+            height:100px;
+            float:left;
+            font-size: 20px;
+            margin-left: 350px; 
+        }
+        .top_text div{
+            padding-top:18px;
+        }
+        .top_text div>a{
+            padding-left: 15px;
+        }
+    	/* 中间登陆 */
+    	.conter_logo{
+    		width:1100px;
+    		height:250px;
+    		/* margin:0 auto; */
+    		text-align: center;
+    	}
+        .conter_logo div{
+            padding-top: 60px;
+        }
+        /* 登录注册 */
+        .conter_puto{
+            width:1100px;
+            height:66px;
+            /* background-color: red;  */
+            text-align:center;
+        }
+        .conter_puto div{
+            margin-left: 65px;
+            margin-top: 10px;
+        }
+        .deng a{
+            margin-top: -5px;
+            font-size: 20px;
+        }
+        .zhuc a{
+            margin-top: -5px;
+            font-size: 20px;
+        }
+        .deng{
+            width:360px;
+            height:60px;
+            float:left;
+            border-radius:38px;
+            letter-spacing:20px;
+            cursor:pointer;
+            background: #d9534f;
+            color: #ffffff;
+        }
+        .zhuc{
+            width:360px;
+            height:60px;
+            float:left;
+            border-radius:38px;
+            letter-spacing:10px;
+            cursor:pointer;
+            background:#5cb85c;
+            color: #ffffff;
+        }
+        /* 底部布局 */
+        .foner_a{
+            padding-top: 10px;
+            letter-spacing:5px;
+            text-align: center;
+        }
+        .foner_a a:hover{
+            color: red;
+        }
+        .l-line{
+            border-top:1px solid #eee;
+            width:30%;
+            position:relative;
+            top:20px;
+            left:-270px;
+            box-shadow: 0 0 1px #eef;
+        }
+        .r-line{
+            border-top:1px solid #eee;
+            width:30%;
+            position:relative;
+            top:19px;
+            left:236px;
+            box-shadow: 0 0 1px #eef;
+        }
+        .foner-navs{
+            margin-bottom:10px;
+            position:relative;
+            text-align: center;
+            font-size: 10px;
+            margin-left: -37px;
+            margin-top: 10px;
+        }
+        .foner_z{
+            text-align: center;
+            font-size: 8px;
+        }
+           /* 下拉布局 */
+            .dropbtn:hover
+            {
+                display:inline-block;
+                color:white;
+                text-align:center;
+                /* padding:14px 16px; */
+                text-decoration:none;
+            }
+             .dropdown
+            {
+                display:inline-block;
+            }
+
+            .dropdown-content
+            {
+                display:none;
+                position:absolute;
+                background-color:#f9f9f9;
+                min-width:160px;
+                margin-left: 10px;
+                /* margin-top:45px; */
+                z-index:50;
+                /* box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2); */
+            }
+
+            .dropdown-content a
+            {
+                color:black;
+                padding:12px 16px;
+                text-decoration:none;
+                display:block;
+            }
+
+            .dropdown-content a:hover {
+                background-color: #f1f1f1;
+            }
+
+            .dropdown:hover .dropdown-content
+            {
+                display:block;
+            }
+      

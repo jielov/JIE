@@ -1,0 +1,43 @@
+/*
+* @Author: ASUS飞行堡垒
+* @Date:   2019-11-27 17:20:13
+* @Last Modified by:   ASUS飞行堡垒
+* @Last Modified time: 2019-11-27 17:22:05
+*/
+/* 底部布局 */
+ .foner_a{
+            padding-top: 10px;
+            letter-spacing:5px;
+            text-align: center;
+        }
+        .foner_a a:hover{
+            color: red;
+        }
+        .l-line{
+            border-top:1px solid #eee;
+            width:30%;
+            position:relative;
+            top:20px;
+            left:120px;
+            box-shadow: 0 0 1px #eef;
+        }
+        .r-line{
+            border-top:1px solid #eee;
+            width:30%;
+            position:relative;
+            top:19px;
+            left:620px;
+            box-shadow: 0 0 1px #eef;
+        }
+        .foner-navs{
+            margin-bottom:10px;
+            position:relative;
+            text-align: center;
+            font-size: 10px;
+            margin-left: -37px;
+            margin-top: 10px;
+        }
+        .foner_z{
+            text-align: center;
+            font-size: 8px;
+        }
